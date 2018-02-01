@@ -1,0 +1,155 @@
+
+/*
+
+Author: Willard Shikami
+
+*/
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+html,
+body {
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #565656;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Clan Web';
+    font-weight: 100;
+}
+/*==========================================
+PRE LOADER 
+==========================================*/
+.preloader{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fefefe;
+    z-index:99999;
+    height:100%;
+    width:100%;
+    overflow:hidden !important;
+}
+.loaded{
+    width:60px;
+    height:60px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    background-image:url(../img/loading.gif);
+    background-repeat:no-repeat;
+    background-position:center;
+    -moz-background-size:cover;
+    background-size:cover;
+    margin:-20px 0 0 -20px;
+}
+
+/*==========================================
+THE NAVBAR
+==========================================*/
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.main_menu{
+    color:#fff;
+}
+
+.menu-scroll {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    top: 0; 
+	left: 0; 
+	right: 0; 
+	z-index: 300;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-color: #fff;
+	height:80px;
+	
+}
+.navbar-default {
+    margin-top: 15px;
+}
+
+.menu-scroll .main_menu .navbar-nav > li > a {
+	color:#666;
+    font-family: 'Clan Web';
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.menu-scroll .main_menu .navbar-nav > li > a:hover {
+	color:#111517;
+}
+
+.menu-scroll a.our_logo{
+	color:#666;
+}
+
+.menu-scroll .call_us{
+	color:#666;
+}
+
+.menu-scroll .main_menu .navbar {
+	margin-bottom:0px;
+    border: 0px solid transparent;
+}
+
+.menu-scroll .main_menu .container-fluid {
+    border-bottom: 0px solid transparent;
+    padding-bottom:0px; 
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.our_logo {
+    color: #666;
+    font-family: 'Clan Web';
+    font-weight: 600;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-default {
+    background-color: transparent; 
+    border-color: transparent;
+    font-size: 13px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-family: 'Clan Web';
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.main-dom{
+    background-color:#F2F2F2;
+    padding: 100px 0; 
+}
+
